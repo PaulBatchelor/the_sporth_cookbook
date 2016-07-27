@@ -2,20 +2,17 @@ DOC= \
 	 hello \
 	 fm \
 
-.PHONY: $(DOC)
+DOC_CREATE=$(addsuffix _create,$(DOC))
+DOC_CLEAN=$(addsuffix _clean,$(DOC))
+
+default: $(DOC_CREATE)
+
+%_create: 
+	make -f Makefile.main N=$(subst _create,,$@)
+
+%_clean: 
+	make -f Makefile.main N=$(subst _clean,,$@) clean
 
 
-default: $(DOC)
-
-fm: 
-	make -f Makefile.main N=$@
-
-fm_clean: 
-	make -f Makefile.main N=$@ clean
-
-hello: 
-	make -f Makefile.main N=$@
-
-hello_clean: 
-	make -f Makefile.main N=$@ clean
-
+clean:
+	make $(DOC_CLEAN)
