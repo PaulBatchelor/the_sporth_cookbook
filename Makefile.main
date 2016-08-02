@@ -1,4 +1,4 @@
-SPORTHDOT=~/proj/sporth/util/sporthdot
+SPORTHDOT=sporthdot
 
 NAME=$(N)/$(N)
 
@@ -8,7 +8,7 @@ $(NAME).dot: $(NAME).sp
 	$(SPORTHDOT) $^ > $@
 
 $(NAME).ps: $(NAME).dot
-	dot -Tps $^ > $@
+	dot -Gsize=5,8\! -Gfontsize=100 -Gratio=fill -Grankdir=TB -Tps $^ > $@
 
 $(NAME).tex: $(NAME).sp
 	cat $^ | perl format.pl $^ | smutex > $@

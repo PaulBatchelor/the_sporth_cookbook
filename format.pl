@@ -12,14 +12,10 @@ while(<>)
     }
     if(m/^##---/) {
         if($codemode) {
-            print("\\end{lstlisting}\n");
-            print("\\end{tabular}\n");
-            print("\\newline\\newline\n");
+            print("``");
             $codemode = 0;
         } else {
-            print("\\newline\\newline\n");
-            print("\\begin{tabular}{ | l l } &\n");
-            print("\\begin{lstlisting}\n");
+            print("``\n");
             $codemode = 1;
         }
     } elsif($codemode) {
