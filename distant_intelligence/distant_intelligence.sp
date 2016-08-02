@@ -24,7 +24,7 @@ _seq '67 69 71 72 74 76' gen_vals
 _args 4 zeros
 ##---
 
-##: P-register 4 is not being used, so we set this to be the frequency of 
+##: P-register 4 is not being used, so this is set to be the frequency of 
 ##: the C above middle C (midi note 72).
 ##: This will be used as the base frequency for "gen\\_padsynth". 
 
@@ -38,7 +38,7 @@ _args 4 zeros
 _amps '1.0 0.5 0.25 0.5' gen_vals
 ##---
 
-##: Finally, we generate our padsynth wavetable. 
+##: Finally, the padsynth wavetable is generated. 
 
 ##---
 _pad 262144 4 p 40 'amps' gen_padsynth
