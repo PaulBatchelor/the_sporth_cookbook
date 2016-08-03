@@ -2,6 +2,7 @@ DOC= \
 	 hello \
 	 fm \
 	 distant_intelligence \
+	 crystalline \
 
 DOC_CREATE=$(addsuffix _create,$(DOC))
 DOC_CLEAN=$(addsuffix _clean,$(DOC))
