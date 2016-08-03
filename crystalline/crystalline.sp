@@ -3,13 +3,22 @@
 ##: a Karplus-Strong pluck and a phase-vocoder buffer shuffler. 
 ##: The controls are the following:
 ##: - Control 1: Feedback
+# default 0.92
 ##: - Control 2: Tempo
+# default 0.086
 ##: - Control 3: Dry/Wet
+# default 0.61
 ##: - Control 4: Probability
+# default 0.519
 
 ##:
 ##: ## Setup
 ##: 
+
+0 p "p0" print drop
+1 p "p1" print drop
+2 p "p2" print drop
+3 p "p2" print drop
 
 ##: A buffer for audio is created and zeroed out.
 ##---
