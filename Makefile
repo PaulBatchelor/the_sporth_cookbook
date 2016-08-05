@@ -3,6 +3,7 @@ DOC= \
 	 fm \
 	 distant_intelligence \
 	 crystalline \
+	 kLtz \
 
 DOC_CREATE=$(addsuffix _create,$(DOC))
 DOC_CLEAN=$(addsuffix _clean,$(DOC))
