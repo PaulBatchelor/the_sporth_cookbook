@@ -4,6 +4,7 @@ DOC= \
 	 distant_intelligence \
 	 crystalline \
 	 kLtz \
+	 scheale \
 
 DOC_CREATE=$(addsuffix _create,$(DOC))
 DOC_CLEAN=$(addsuffix _clean,$(DOC))
