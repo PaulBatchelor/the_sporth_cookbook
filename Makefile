@@ -5,6 +5,7 @@ DOC= \
 	 crystalline \
 	 kLtz \
 	 scheale \
+	 bones \
 
 DOC_CREATE=$(addsuffix _create,$(DOC))
 DOC_CLEAN=$(addsuffix _clean,$(DOC))
