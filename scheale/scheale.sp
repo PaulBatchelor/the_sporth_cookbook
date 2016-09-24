@@ -206,4 +206,12 @@ rot rot add
 rot dup rot add
 rot rot add 
 ##---
+
+##: For now, all sporth cookbook patches are mono, so we will drop a channel.
+
+##---
+drop
+##---
+
+##: That being said, the reverb sounds very good in stereo!
 ##: The end.
