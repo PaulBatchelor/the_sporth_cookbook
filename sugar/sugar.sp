@@ -34,8 +34,6 @@ _prev 0 varset
 
 5 p (4 p 0.5 0 thresh) 0.05 tport 60 + _key set
 
-60 12 dmetro 1.5 tgate dup 4 pset * _key set
-
 _gt 4 palias
 
 _key get tick _key get 0 gt + samphold
