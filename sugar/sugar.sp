@@ -17,7 +17,7 @@ _res var
 ##: - Control 4: Detune
 # default 0.21
 _det var
-3 p 0.01 0.8 scale _det set
+3 p 0.01 0.45 scale _det set
 
 # _bpm 110 varset
 # _det 0.2 varset
