@@ -1,4 +1,5 @@
 bones
+chatting_robot
 crystalline
 distant_intelligence
 kLtz
