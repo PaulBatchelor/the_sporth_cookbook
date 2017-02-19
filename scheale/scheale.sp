@@ -167,7 +167,7 @@ mul
 ##: 
 ##: Effects
 ##: 
-##: The effects used conist of clip distortion, a feedback filtered delay line,
+##: The effects used consist of clip distortion, a feedback filtered delay line,
 ##: and a very large reverb. 
 ##:
 ##: Firstly, the sound is put through clip distortion, highly truncating
