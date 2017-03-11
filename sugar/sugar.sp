@@ -1,4 +1,3 @@
-(
 _seq "0 5 7 12 2 12 7 5" gen_vals
 _filt "1000 2000 7000 3000 1000 1000 7000 1000" gen_vals
 
@@ -69,4 +68,3 @@ _dry set
 
 _dry get dup 0.85 8000 revsc drop -12 ampdb * _dry get +
 _dry get 0.75 0.3 delay 6000 buthp -20 ampdb * +
-)

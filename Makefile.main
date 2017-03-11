@@ -2,7 +2,7 @@ SPORTHDOT=sporthdot
 
 NAME=$(N)/$(N)
 
-default: $(NAME).pdf
+default: $(NAME).html
 
 $(NAME).dot: $(NAME).sp
 	$(SPORTHDOT) $^ > $@
@@ -10,12 +10,17 @@ $(NAME).dot: $(NAME).sp
 $(NAME).ps: $(NAME).dot
 	dot -Gsize=5,8\! -Gfontsize=100 -Gratio=fill -Grankdir=TB -Tps $^ > $@
 
-$(NAME).tex: $(NAME).sp
-	cat $^ | perl format.pl $^ | smutex > $@
+$(NAME).md: $(NAME).sp
+	cat $^ | perl format.pl $^ > $@
+
+$(NAME).tex: $(NAME).md
+	cat $^ | smutex > $@
+
+$(NAME).html: $(NAME).md
+	cat $^ | smu > $@
 
 $(NAME)_doc.tex:
 	gcc -DNAME=$(NAME) -x c -E doc.template | sed /^\#/d > $@
-
 
 
 $(NAME).pdf: $(NAME)_doc.tex $(NAME).ps $(NAME).tex
@@ -34,13 +39,6 @@ clean:
 	rm -rf $(NAME).pdf
 	rm -rf $(NAME)_doc.tex
 	rm -rf $(NAME).sp.code
-	rm -rf *.dot 
-	rm -rf *.dvi 
-	rm -rf *.aux 
-	rm -rf *.tex 
-	rm -rf *.log
-	rm -rf *.ps
-	rm -rf *.pdf
-	rm -rf *_doc.tex
-	rm -rf *.sp.code
+	rm -rf $(NAME).md
+	rm -rf $(NAME).html
 

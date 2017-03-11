@@ -133,7 +133,7 @@ dup dup 10 10 8000 zrev drop 0.5 * + dcblk
 ##: here for **tblrec**, which will leave it recording indefinitely.
 
 ##---
-dup 0 _tk tget 'buf' tblrec
+0 _tk tget 'buf' tblrec
 ##---
 
 ##:
@@ -171,7 +171,7 @@ dup 0 _tk tget 'buf' tblrec
 ##: The last argument of mincer is the buffer.
 
 ##---
-'buf' mincer
+2048 'buf' mincer
 ##---
 
 ##:
