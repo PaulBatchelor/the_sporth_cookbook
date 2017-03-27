@@ -14,9 +14,8 @@ RECIPES = scheale\
 		  playwithtoys\
 		  waiting_room
 
-ifdef SITEGEN_MAKEFILE
+ifdef $(SITEGEN_MAKEFILE)
 RECIPE_PAGES = $(addsuffix /index.md, $(addprefix proj/cook/recipes/,$(RECIPES)))
-
 %.md: %.sp 
 	perl proj/cook/format.pl $< > $@
 else
