@@ -1,23 +1,33 @@
-DOC= \
-	 hello \
-	 fm \
-	 distant_intelligence \
-	 crystalline \
-	 kLtz \
-	 scheale \
-	 bones \
+RECIPES = scheale\
+		  fm\
+		  kLtz\
+		  crystalline\
+		  distant_intelligence\
+		  bones\
+		  chatting_robot\
+		  sugar\
+		  oatmeal\
+		  minions\
+		  machines_at_work\
+		  midnight_crawl\
+		  density\
+		  playwithtoys\
+		  waiting_room
 
-DOC_CREATE=$(addsuffix _create,$(DOC))
-DOC_CLEAN=$(addsuffix _clean,$(DOC))
+ifdef SITEGEN_MAKEFILE
+RECIPE_PAGES = $(addsuffix /index.md, $(addprefix proj/cook/recipes/,$(RECIPES)))
 
-default: $(DOC_CREATE)
+%.md: %.sp 
+	perl proj/cook/format.pl $< > $@
+else
+RECIPE_PAGES = $(addsuffix /index.md, $(addprefix recipes/,$(RECIPES)))
+default: all
 
-%_create: 
-	make -f Makefile.main N=$(subst _create,,$@)
+all: $(RECIPE_PAGES)
 
-%_clean: 
-	make -f Makefile.main N=$(subst _clean,,$@) clean
-
+%.md: %.sp 
+	perl format.pl $< > $@
 
 clean:
-	make $(DOC_CLEAN)
+	rm -rf $(RECIPE_PAGES)
+endif
