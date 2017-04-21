@@ -35,3 +35,5 @@ while(<>)
     }
 
 }
+
+print("\n\\[[Back](/$out)]\n\n");
