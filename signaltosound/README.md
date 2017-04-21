@@ -1,0 +1,23 @@
+# Signal To Sound
+
+This is a work in progress tutorial for Sporth. The goals this tutorial are
+twofold. Not only will this tutorial seek to provide foundational information
+on fundamental computer-based synthesis techniques, but it will also aim to 
+help develop a deep understanding for how to use them in a modular environment. 
+This idea is something I'd to call *sonic intuition*. 
+
+The term "signal to sound" comes from the idea of building intuition on certain
+synthesis techniques and sounds from modulating it with known signals. The
+tutorial will be sequential, each patch building on sonic intuition gained from
+the chapters preceding it.
+
+In the first section, the low-frequency sinusoidal
+oscillator (LFO) and fundamental concept of modulation will be illustrated. 
+From there, the harmonic series will be derived. This will be a smooth transition
+into talking about subtractive/additive synthesis, common wavetable oscillator shapes, 
+as well as a discussion on timbre and sonority. From there, FM synthesis 
+and a simple FM operator pair will be derived from first principles. Following
+that, sonic intution about the FM parameters (C:M ratio, modulation index) will be 
+built up. 
+
+Then maybe something on density? Dunno. Will think on that.
