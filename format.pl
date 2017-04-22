@@ -3,7 +3,7 @@ use strict;
 
 my $codemode=0;
 my $openfile= 1;
-
+my $out;
 while(<>)
 {
     if(m/^##:/) {
@@ -15,7 +15,7 @@ while(<>)
         if(m/\# (.*)/ and $openfile == 1) {
             my $name = lc($1);
             $name =~ s/ /_/g;
-            my $out = "res/cook/$name.sp";
+            $out = "res/cook/$name.sp";
             open CODE, ">$out";
             print("\n\\[[code](/$out)]\n\n");
             $openfile = 0;
@@ -36,4 +36,4 @@ while(<>)
 
 }
 
-print("\n\\[[Back](/$out)]\n\n");
+print("\n\\[[Back](/proj/cook)]\n\n");

@@ -187,3 +187,6 @@ instruments.
 
     _dry get 0.75 0.3 delay 6000 buthp -20 ampdb * +
 
+
+\[[Back](/proj/cook)]
+

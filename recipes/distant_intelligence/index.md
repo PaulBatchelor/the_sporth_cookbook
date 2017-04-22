@@ -146,3 +146,6 @@ of the reverb generator with less parameters.
 
     dup dup 5 8 3000 zrev drop 0.3 * +
 
+
+\[[Back](/proj/cook)]
+

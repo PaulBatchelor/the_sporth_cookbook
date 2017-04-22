@@ -109,3 +109,6 @@ the dry signal.
 
     0.4 1024 smoothdelay 0.3 * +
 
+
+\[[Back](/proj/cook)]
+

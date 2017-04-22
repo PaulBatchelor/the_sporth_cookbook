@@ -207,3 +207,6 @@ bit so things do not clip.
 
     _bass get  100 20 3 eqfil + -2 ampdb * 
 
+
+\[[Back](/proj/cook)]
+

@@ -19,3 +19,6 @@ Finally, we send this signal to modulate the frequency carrier signal:
 
 What we end up with is a basic FM pair at 440 Hz, 1 1:1 Carrier-Modulator
 ratio, with a modulation index of 1, and an ampitude of 0.5.
+
+\[[Back](/proj/cook)]
+

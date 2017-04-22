@@ -203,3 +203,6 @@ For now, all sporth cookbook patches are mono, so we will drop a channel.
 
 That being said, the reverb sounds very good in stereo!
 The end.
+
+\[[Back](/proj/cook)]
+

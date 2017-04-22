@@ -174,3 +174,6 @@ The *send* signal is fed into a tempo-synced feedback delay line
 
     _send get 0.3 125 bpm2dur delay -3 ampdb * +
 
+
+\[[Back](/proj/cook)]
+

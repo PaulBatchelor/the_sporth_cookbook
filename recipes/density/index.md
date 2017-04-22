@@ -70,3 +70,6 @@ the rest of the mix.
 
     400 butlp 8 8000 bitcrush + 
 
+
+\[[Back](/proj/cook)]
+

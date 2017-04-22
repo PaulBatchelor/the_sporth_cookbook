@@ -158,3 +158,6 @@ The final signal is duplicated to work on a stero signal.
 
     1 2 p 0.01 port - cf
 
+
+\[[Back](/proj/cook)]
+

@@ -278,3 +278,6 @@ limiter and bumped up 3db.
 
     0.1 0.001 -3 peaklim 3 ampdb * 
 
+
+\[[Back](/proj/cook)]
+

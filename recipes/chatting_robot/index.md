@@ -118,3 +118,6 @@ Finally, the resulting signal is sent into **zitareverb**.
     2000 0
     0.2 2 zitarev drop
 
+
+\[[Back](/proj/cook)]
+

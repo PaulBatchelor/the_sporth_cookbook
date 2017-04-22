@@ -125,3 +125,6 @@ a hard limiter **limit**.
 
     dup jcrev -6 ampdb * + -1 1 limit
 
+
+\[[Back](/proj/cook)]
+

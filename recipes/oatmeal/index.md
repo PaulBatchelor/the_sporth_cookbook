@@ -141,3 +141,6 @@ attenuated by 6dB. The dry and wet signal are then added together.
 
     1000 butlp -6 ampdb * + 
 
+
+\[[Back](/proj/cook)]
+

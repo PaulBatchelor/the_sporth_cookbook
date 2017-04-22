@@ -1,5 +1,5 @@
 {{TITLE}}
-## By Paul Batchelor
+### By Paul Batchelor
 
 ## Part 0: Introduction
 - [What is Sporth?](what_is_sporth.html)
