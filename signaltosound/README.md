@@ -20,4 +20,8 @@ and a simple FM operator pair will be derived from first principles. Following
 that, sonic intution about the FM parameters (C:M ratio, modulation index) will be 
 built up. 
 
-Then maybe something on density? Dunno. Will think on that.
+At this point, there will brief discussion on rhythm and density in the computer
+music domain. 
+
+The final section will be on any fun topics that don't quite fit the mold 
+described above. 
