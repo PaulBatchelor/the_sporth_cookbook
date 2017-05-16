@@ -1,6 +1,6 @@
 {{TITLE}}
 
-F-tables, or "function tables" are terms that I borrowed from the Csound 
+F-tables, or "function tables" are terms borrowed from the Csound 
 language. Simply put, ftables are arrays of floating point values. They are
 often used by audio-rate signal generators in Sporth like samplers and table-lookup
 oscillators. 
