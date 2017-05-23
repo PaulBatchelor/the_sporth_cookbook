@@ -17,6 +17,7 @@
 - [prop](prop.html)
 - [lsys](lsys.html)
 - nsmp
+- [List of Sporth Ugens](ugens)
 
 ## Part 2: Using SoundPlumber and the Sporth API ("The Plumbing")
 - Hello, Plumber

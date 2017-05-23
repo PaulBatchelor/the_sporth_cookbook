@@ -14,12 +14,21 @@ RECIPES = scheale\
 		  playwithtoys\
 		  waiting_room
 
+UGENS = atone.md
+
 ifdef SITEGEN_MAKEFILE
 RECIPE_PAGES = $(addsuffix /index.md, $(addprefix proj/cook/recipes/,$(RECIPES)))
+UGEN_PAGES = $(addprefix proj/cook/ugens/,$(UGENS))
+RECIPE_PAGES += $(UGEN_PAGES)
+
 %.md: %.sp 
 	perl proj/cook/format.pl $< > $@
+
 else
 RECIPE_PAGES = $(addsuffix /index.md, $(addprefix recipes/,$(RECIPES)))
+UGEN_PAGES = $(addprefix ugens/,$(UGENS))
+RECIPE_PAGES += $(UGEN_PAGES)
+
 default: all
 all: $(RECIPE_PAGES)
 %.md: %.sp 

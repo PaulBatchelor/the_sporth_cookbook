@@ -35,7 +35,7 @@ adsr
 
 allpass
 
-atone
+[atone](atone.html)
 
 autowah
 
