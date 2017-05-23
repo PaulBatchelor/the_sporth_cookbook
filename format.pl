@@ -37,6 +37,7 @@ while(<FILE>)
 
 }
 
-print("\n\\[[Back](/proj/cook)]\n\n");
+# the best back button is no back button
+# print("\n\\[[Back](/proj/cook)]\n\n");
 
 close FILE;
