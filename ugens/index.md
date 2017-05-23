@@ -7,7 +7,7 @@ Eventually, some of these ugens will have links with short simple examples.
 
 \*
 
-\+
+[\+](add.html)
 
 \-
 
@@ -29,19 +29,19 @@ Eventually, some of these ugens will have links with short simple examples.
 
 %
 
-abs
+[abs](abs.html)
 
-adsr
+[adsr](adsr.html)
 
-allpass
+[allpass](allpass.html)
 
 [atone](atone.html)
 
-autowah
+[autowah](autowah.html)
 
-add
+[add](add.html)
 
-ampdb
+[ampdb](ampdb.html)
 
 bal
 
