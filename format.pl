@@ -4,7 +4,8 @@ use strict;
 my $codemode=0;
 my $openfile= 1;
 my $out;
-while(<>)
+open FILE, $ARGV[0];
+while(<FILE>)
 {
     if(m/^##:/) {
         chomp;
@@ -37,3 +38,5 @@ while(<>)
 }
 
 print("\n\\[[Back](/proj/cook)]\n\n");
+
+close FILE;
