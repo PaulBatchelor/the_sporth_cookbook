@@ -23,10 +23,16 @@ UGENS = abs.md\
 		ampdb.md\
 		tone.md
 
+SIGNAL_SOUND = 00_sine.sp
+
 ifdef SITEGEN_MAKEFILE
 RECIPE_PAGES = $(addsuffix /index.md, $(addprefix proj/cook/recipes/,$(RECIPES)))
+
 UGEN_PAGES = $(addprefix proj/cook/ugens/,$(UGENS))
 RECIPE_PAGES += $(UGEN_PAGES)
+
+SIGNAL_SOUND_PAGES = $(addprefix proj/cook/signaltosound/,$(SIGNAL_SOUND))
+RECIPE_PAGES += $(SIGNAL_SOUND_PAGES)
 
 %.md: %.sp 
 	perl proj/cook/format.pl $< > $@
