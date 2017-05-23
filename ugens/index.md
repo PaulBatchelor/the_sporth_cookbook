@@ -395,7 +395,7 @@ tick
 
 tog
 
-tone
+[tone](tone.html)
 
 tphasor
 

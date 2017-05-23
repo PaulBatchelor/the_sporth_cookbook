@@ -14,7 +14,7 @@ RECIPES = scheale\
 		  playwithtoys\
 		  waiting_room
 
-UGENS = atone.md
+UGENS = atone.md tone.md
 
 ifdef SITEGEN_MAKEFILE
 RECIPE_PAGES = $(addsuffix /index.md, $(addprefix proj/cook/recipes/,$(RECIPES)))
