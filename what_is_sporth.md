@@ -5,7 +5,7 @@ environment, that uses a stack paradigm to build up patches. In addition to
 a the language, Sporth has a very flexible API. It is very easy to build
 tools and software on top of Sporth. Sporth has been built to run inside of
 programs like ChucK, PD, and LMMS. It is also one of the main synthesis engines
-used inside of the iOS framework AudioKit. 
+used inside of the iOS/macOS framework AudioKit. 
 
 Sporth was originally designed because writing music in C via [Soundpipe](/proj/soundpipe.html) 
 was too tedious. The stack-based language design was chosen
