@@ -21,9 +21,13 @@ UGENS = abs.md\
 		autowah.md\
 		add.md\
 		ampdb.md\
-		tone.md
+		bal.md\
+		biscale.md\
+		bitcrush.md\
+		blsaw.md\
+		tone.md\
 
-SIGNAL_SOUND = 00_sine.sp
+SIGNAL_SOUND = 00_sine.md
 
 ifdef SITEGEN_MAKEFILE
 RECIPE_PAGES = $(addsuffix /index.md, $(addprefix proj/cook/recipes/,$(RECIPES)))

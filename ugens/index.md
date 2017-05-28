@@ -43,13 +43,13 @@ Eventually, some of these ugens will have links with short simple examples.
 
 [ampdb](ampdb.html)
 
-bal
+[bal](bal.html)
 
-biscale
+[biscale](biscale.html)
 
-bitcrush
+[bitcrush](bitcrush.html)
 
-blsaw
+[blsaw](blsaw.html)
 
 blsquare
 
