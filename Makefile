@@ -26,6 +26,16 @@ UGENS = abs.md\
 		biscale.md\
 		bitcrush.md\
 		blsaw.md\
+		blsquare.md\
+		bltriangle.md\
+		bpm2dur.md\
+		bpm2rate.md\
+		branch.md\
+		brown.md\
+		butbp.md\
+		butbr.md\
+		buthp.md\
+		butlp.md\
 		tone.md\
 
 SIGNAL_SOUND = 00_sine.md

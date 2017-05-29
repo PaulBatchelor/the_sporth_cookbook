@@ -51,25 +51,25 @@ Eventually, some of these ugens will have links with short simple examples.
 
 [blsaw](blsaw.html)
 
-blsquare
+[blsquare](blsquare.html)
 
-bltriangle
+[bltriangle](bltriangle.html)
 
-bpm2dur
+[bpm2dur](bpm2dur.html)
 
-bpm2rate
+[bpm2rate](bpm2rate.html)
 
-branch
+[branch](branch.html)
 
-brown
+[brown](brown.html)
 
-butbp
+[butbp](butbp.html)
 
-butbr
+[butbr](butbr.html)
 
-buthp
+[buthp](buthp.html)
 
-butlp
+[butlp](butlp.html)
 
 cdb
 
