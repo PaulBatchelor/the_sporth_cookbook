@@ -12,7 +12,8 @@ RECIPES = scheale\
 		  midnight_crawl\
 		  density\
 		  playwithtoys\
-		  waiting_room
+		  waiting_room\
+		  in_seven
 
 UGENS = abs.md\
 		adsr.md\
