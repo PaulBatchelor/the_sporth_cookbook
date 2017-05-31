@@ -79,7 +79,7 @@ cdbtab
 
 cf
 
-changed
+[changed](changed.html)
 
 clip
 
