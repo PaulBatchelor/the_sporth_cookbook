@@ -83,7 +83,7 @@ cdbtab
 
 [clip](clip.html)
 
-clock
+[clock](clock.html)
 
 comb
 
