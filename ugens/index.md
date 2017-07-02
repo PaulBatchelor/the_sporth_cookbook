@@ -77,11 +77,11 @@ cdbload
 
 cdbtab
 
-cf
+[cf](crossfade.html)
 
 [changed](changed.html)
 
-clip
+[clip](clip.html)
 
 clock
 
@@ -91,7 +91,7 @@ conv
 
 count
 
-crossfade
+[crossfade](crossfade.html)
 
 dcblk
 

@@ -37,6 +37,7 @@ UGENS = abs.md\
 		buthp.md\
 		butlp.md\
 		changed.md\
+		crossfade.md\
 		tone.md\
 
 SIGNAL_SOUND = 00_sine.md
