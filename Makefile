@@ -40,6 +40,7 @@ UGENS = abs.md\
 		crossfade.md\
 		clip.md\
 		clock.md\
+		comb.md\
 		tone.md\
 
 SIGNAL_SOUND = 00_sine.md

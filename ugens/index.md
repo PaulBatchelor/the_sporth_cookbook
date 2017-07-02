@@ -85,7 +85,7 @@ cdbtab
 
 [clock](clock.html)
 
-comb
+[comb](comb.html)
 
 conv
 
