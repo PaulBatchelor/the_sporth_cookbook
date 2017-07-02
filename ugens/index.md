@@ -93,7 +93,7 @@ conv
 
 [crossfade](crossfade.html)
 
-dcblk
+[dcblk](dcblk.html)
 
 delay
 
