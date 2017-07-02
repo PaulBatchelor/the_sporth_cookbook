@@ -41,6 +41,7 @@ UGENS = abs.md\
 		clip.md\
 		clock.md\
 		comb.md\
+		count.md\
 		tone.md\
 
 SIGNAL_SOUND = 00_sine.md

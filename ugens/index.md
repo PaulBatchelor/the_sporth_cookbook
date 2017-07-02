@@ -89,7 +89,7 @@ cdbtab
 
 conv
 
-count
+[count](count.html)
 
 [crossfade](crossfade.html)
 
