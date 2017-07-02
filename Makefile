@@ -43,6 +43,7 @@ UGENS = abs.md\
 		comb.md\
 		count.md\
 		dcblk.md\
+		delay.md\
 		tone.md\
 
 SIGNAL_SOUND = 00_sine.md

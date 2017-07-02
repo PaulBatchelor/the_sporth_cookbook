@@ -95,7 +95,7 @@ conv
 
 [dcblk](dcblk.html)
 
-delay
+[delay](delay.html)
 
 diode
 
