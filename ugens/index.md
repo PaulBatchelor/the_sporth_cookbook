@@ -383,7 +383,7 @@ tenvx
 
 tgate
 
-tget
+[tget](tget.html)
 
 thresh
 
@@ -413,7 +413,7 @@ tseq
 
 tseg
 
-tset
+[tset](tset.html)
 
 var
 

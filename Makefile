@@ -47,6 +47,9 @@ UGENS = abs.md\
 		tblrec.md\
 		tabread.md\
 		tone.md\
+		tget.md\
+		tseq.md\
+		tset.md\
 
 SIGNAL_SOUND = 00_sine.md
 
