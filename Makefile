@@ -44,13 +44,14 @@ UGENS = abs.md\
 		count.md\
 		dcblk.md\
 		delay.md\
+		osc.md\
+		posc3.md\
 		tblrec.md\
 		tabread.md\
 		tone.md\
 		tget.md\
 		tseq.md\
 		tset.md\
-		osc.md\
 
 SIGNAL_SOUND = 00_sine.md
 
