@@ -50,6 +50,7 @@ UGENS = abs.md\
 		tget.md\
 		tseq.md\
 		tset.md\
+		osc.md\
 
 SIGNAL_SOUND = 00_sine.md
 

@@ -247,7 +247,7 @@ noise
 
 nsmp
 
-osc
+[osc](osc.html)
 
 oscmorph4
 
