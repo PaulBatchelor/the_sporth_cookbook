@@ -45,6 +45,7 @@ UGENS = abs.md\
 		dcblk.md\
 		delay.md\
 		osc.md\
+		oscmorph.md\
 		posc3.md\
 		tblrec.md\
 		tabread.md\

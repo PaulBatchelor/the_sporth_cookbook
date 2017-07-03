@@ -70,4 +70,16 @@ Is identical to:
 This is the preferred convention for ftables and variables, which will be
 discussed in the next chapter.
 
+## Unit generators that use f-tables
+
+Here are some common unit generators that make use of f-tables:
+- [osc](ugens/osc.html): table-lookup oscillator with linear interpolation
+- [tblrec](ugens/tblrec.html): writes an input signal to a table
+- [tabread](ugens/tabread.html): reads from a tables
+- [tseq](ugens/tseq.html): trigger-based sequencer
+- [tget](ugens/tget.html): get a value in a table
+- [tset](ugens/tset.html): set a value in a table
+- [posc3](ugens/posc3.html): table-lookup high-precision oscillator with
+cubic interpolation
+
 {{FOOTER}}

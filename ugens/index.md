@@ -249,9 +249,9 @@ nsmp
 
 [osc](osc.html)
 
-oscmorph4
+[oscmorph4](oscmorph.html)
 
-oscmorph2
+[oscmorph2](oscmorph.html)
 
 p
 

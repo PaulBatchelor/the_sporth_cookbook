@@ -1,8 +1,11 @@
-##: # crossfade / cf
+##: # crossfade
 ##: 
 ##: Crossfade applies a linear crossfrade between two signals with a certain
 ##: percentage *alpha*. When *alpha* is 0, it 100% the top signal. When *alpha*
 ##: is 1, the signal is 100% the second signal.
+##: 
+##: Crossfade also has the alias "cf"
+##:
 
 ##---
 # Signal 1
