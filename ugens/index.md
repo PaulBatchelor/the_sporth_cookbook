@@ -369,7 +369,7 @@ talias
 
 tbldur
 
-tblrec
+[tblrec](tblrec.html)
 
 tblsize
 
