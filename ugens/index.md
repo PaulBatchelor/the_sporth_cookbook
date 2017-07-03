@@ -111,7 +111,7 @@ drip
 
 drop
 
-dtrig
+[dtrig](dtrig.html)
 
 dup
 
