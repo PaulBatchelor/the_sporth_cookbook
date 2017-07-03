@@ -81,5 +81,6 @@ Here are some common unit generators that make use of f-tables:
 - [tset](ugens/tset.html): set a value in a table
 - [posc3](ugens/posc3.html): table-lookup high-precision oscillator with
 cubic interpolation
+- [dtrig](ugens/dtrig.html): trigger generator using delta-times.
 
 {{FOOTER}}
