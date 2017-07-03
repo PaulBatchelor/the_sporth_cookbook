@@ -361,7 +361,7 @@ swap
 
 switch
 
-tabread
+[tabread](tabread.html)
 
 tadsr
 
