@@ -49,6 +49,7 @@ UGENS = abs.md\
 		diskin.md\
 		dist.md\
 		dmetro.md\
+		drip.md\
 		osc.md\
 		oscmorph.md\
 		posc3.md\
