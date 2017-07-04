@@ -99,7 +99,7 @@ conv
 
 [diode](diode.html)
 
-diskin
+[diskin](diskin.html)
 
 dist
 
