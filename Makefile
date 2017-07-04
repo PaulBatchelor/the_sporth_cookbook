@@ -22,6 +22,7 @@ UGENS = abs.md\
 		autowah.md\
 		add.md\
 		ampdb.md\
+		and.md\
 		bal.md\
 		biscale.md\
 		bitcrush.md\
@@ -48,17 +49,25 @@ UGENS = abs.md\
 		diode.md\
 		diskin.md\
 		dist.md\
+		div.md\
 		dmetro.md\
 		drip.md\
+		leftshift.md\
+		mod.md\
+		mul.md\
+		or.md\
 		osc.md\
 		oscmorph.md\
 		posc3.md\
+		rightshift.md\
+		sub.md\
 		tblrec.md\
 		tabread.md\
 		tone.md\
 		tget.md\
 		tseq.md\
 		tset.md\
+		xor.md\
 
 SIGNAL_SOUND = 00_sine.md
 

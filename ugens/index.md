@@ -5,29 +5,25 @@ the Sporth utility ugen_dump, found inside the util folder.
 
 Eventually, some of these ugens will have links with short simple examples. 
 
-\*
+[\*](mul.html)
 
 [\+](add.html)
 
-\-
+[\-](sub.html)
 
-/
+[/](div.html)
 
-\[
+[&amp;](and.html)
 
-\]
+[&#124;](or.html)
 
-&amp;
+[^](xor.html)
 
-&#124;
+[<<](leftshift.html)
 
-^
+[>>](rightshift.html)
 
-<<
-
->>
-
-%
+[%](mod.html)
 
 [abs](abs.html)
 
