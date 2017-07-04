@@ -101,7 +101,7 @@ conv
 
 [diskin](diskin.html)
 
-dist
+[dist](dist.html)
 
 div
 
