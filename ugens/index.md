@@ -405,9 +405,9 @@ tprop
 
 trand
 
-triangle
+[triangle](bltriangle.html)
 
-tri
+[tri](bltriangle.html)
 
 tseq
 
