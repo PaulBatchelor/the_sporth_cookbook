@@ -105,13 +105,13 @@ conv
 
 [drip](drip.html)
 
-drop
+[drop](drop.html)
 
 [dtrig](dtrig.html)
 
-dup
+[dup](dup.html)
 
-dup2
+[dup2](dup2.html)
 
 dur
 

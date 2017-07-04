@@ -52,6 +52,9 @@ UGENS = abs.md\
 		div.md\
 		dmetro.md\
 		drip.md\
+		drop.md\
+		dup.md\
+		dup2.md\
 		leftshift.md\
 		mod.md\
 		mul.md\
