@@ -45,6 +45,7 @@ UGENS = abs.md\
 		dcblk.md\
 		delay.md\
 		dtrig.md\
+		diode.md\
 		osc.md\
 		oscmorph.md\
 		posc3.md\

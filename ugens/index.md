@@ -97,7 +97,7 @@ conv
 
 [delay](delay.html)
 
-diode
+[diode](diode.html)
 
 diskin
 
