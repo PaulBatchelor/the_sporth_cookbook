@@ -99,7 +99,7 @@ conv
 
 [dist](dist.html)
 
-div
+[div](div.html)
 
 [dmetro](dmetro.html)
 
@@ -235,7 +235,7 @@ moogladder
 
 mtof
 
-mul
+[mul](mul.html)
 
 ne
 
@@ -349,7 +349,7 @@ sr
 
 srand
 
-sub
+[sub](sub.html)
 
 streson
 
